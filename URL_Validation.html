@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./output.css">
+    <title>URL_Validation</title>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+     <h1 class=" text-2xl from-neutral-100 font-bold text-center text-white animate-bounce">URL Validation</h1>
+     <div class="border border-black w-[100%]"></div>
+     <section class=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full h-screen flex flex-col justify-center items-center ">
+    <div class="h-[300px] w-[500px] pl-4 flex justify-start items-center bg-[rgba(255,255,255,0.57)] rounded hover:shadow-lg hover:shadow-black transition ease-in-out delay-150 duration-300">
+       
+        <form class="space-x-1 space-y-5">
+        <label class="text-lg font-semibold relative">URL:</label>
+        <input type="text" id="Url_Input" class="border border-black w-[420px] h-8 rounded shadow shadow-black text-lg font-semibold relative">
+        <div id="output" class="text-lg font-semibold relative text-center rounded"></div>
+
+        <div class="flex items-center justify-center h-auto w-auto space-x-4"><button onclick="URLValidation()" type="button" class="py-2 px-9 bg-purple-800 rounded-l-full text-lg font-semibold text-white hover:bg-white hover:border hover:border-black hover:text-black focus:outline-none focus:ring focus:ring-violet-700 focus:border-none focus:shadow-lg focus:shadow-violet-500 transition ease-in-out delay-150 duration-300">Submit</button>
+        
+            <button type="button" class="py-2 px-9 bg-black rounded-l-full text-lg font-semibold text-white hover:bg-white hover:border hover:border-black hover:text-black focus:outline-none focus:ring focus:ring-white focus:border-none focus:shadow-lg focus:shadow-black transition ease-in-out delay-150 duration-300" onclick="Reset()">Reset</button>
+        </div>
+
+        
+</form>
+    </div>
+</section>
+    <script src="./URL_Validation.js"></script>
+</body>
+</html>
